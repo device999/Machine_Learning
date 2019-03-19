@@ -32,8 +32,8 @@ This Repository will be splitted up into 3 categories and the list of planned al
   + Python Pandas
     1. [ ] Introduction
 + Supervised learning
-  1. [ ] Neural Network
+  1. [ ] Coming Soon
 + Unsupervised learning
-  1. [ ] Neural Network
+  1. [ ] Coming Soon
 + Reinforcement learning
-  1. [ ] Neural Network
+  1. [ ] Coming Soon
