@@ -18,13 +18,20 @@ def accept_inputed_filename():
     splitting_array = file_name.split(".",1)
     print("File extention: ",  splitting_array[1])
 
-#4
+#4 
+def display_elements_from_list():
+    color_list = ["Red","Green","White","Black"]
+    for element in color_list:
+        print(element)
+
 
 # this is a main procedere for defined exersice  
 def main():
 #    date_time()
 #    accept_user_name()
-    accept_inputed_filename()
+#    accept_inputed_filename()
+    display_elements_from_list()
+
 
 if __name__=="__main__":
     main()
