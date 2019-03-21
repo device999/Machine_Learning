@@ -35,6 +35,14 @@ def calc_diff_date():
     print(diff.days)
 
     
+#6 Function to calculate the sum of three given numbers, if the values are equal then return thrice of their sum.
+def calc_three_numbers(d1,d2,d3):
+    if d1==d2==d3:
+        sum = d1 * 3
+    else: 
+        sum = d1 + d2 + d3
+    print("Summe: ", sum)
+
 
 
 # this is a main procedere for defined exersice  
@@ -43,7 +51,10 @@ def main():
 #    accept_user_name()
 #    accept_inputed_filename()
 #    display_elements_from_list()
-    calc_diff_date()
+#    calc_diff_date()
+    calc_three_numbers(1,1,3)
+    calc_three_numbers(2,2,2)
+
 
 
 
