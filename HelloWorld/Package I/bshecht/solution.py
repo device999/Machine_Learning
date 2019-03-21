@@ -64,6 +64,17 @@ def input_numbers():
             deside_even_or_odd_number(x)
         
 
+#8 to check whether a specified value is contained in a group of values.
+def is_value_contained_in_group():
+    a = [1,5,8,3] 
+    x = int(input("Input your search digit: "))
+    for i in a:
+        if x == i:
+            print("List containt :", x)
+        else:
+            print("this element was not foundet in the list")
+
+
 # this is a main procedere for defined exersice  
 def main():
 #    date_time()
@@ -73,7 +84,8 @@ def main():
 #    calc_diff_date()
 #    calc_three_numbers(1,1,3)
 #    calc_three_numbers(2,2,2)
-    input_numbers()
+#    input_numbers()
+    is_value_contained_in_group()
 
 
 if __name__=="__main__":
