@@ -31,11 +31,14 @@ def task4():
     list_size = len(color_list)
     print ("The first element = "+ color_list[0])
     print ("The last element = "+ color_list[list_size-1])
+
 # task 5
+# Write a Python program to calculate number of days between two dates.
 def task5():
     date1 = date(2019,5,12)
     date2 = date(2019,6,7)
     print ((date2-date1).days)
+
 # task 6
 # Write a Python program to calculate the sum of three given numbers, if the values are equal then return thrice of their sum.
 def task6():
@@ -46,6 +49,7 @@ def task6():
         print(3*(var1+var2+var3))
     else:
         print(var1+var2+var3)
+
 # task 7
 # Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
 def task7():
@@ -65,6 +69,7 @@ def task8():
     print ("Number is missing")
 
 # task 9
+# Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.
 def task9():
     color_list_1 = set(["White", "Black", "Red"])
     color_list_2 = set(["Red", "Green"])
