@@ -1,4 +1,5 @@
 import datetime
+import sys 
 
 #1 Write a Python program to display the current date and time.
 def date_time():
@@ -43,7 +44,25 @@ def calc_three_numbers(d1,d2,d3):
         sum = d1 + d2 + d3
     print("Summe: ", sum)
 
+#7 Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.         
+def out_user_infos(message, dig, info):
+    print(message, dig, info)
 
+def deside_even_or_odd_number(number):
+    if (number % 2) != 0:
+        print("even")
+    else:
+        print("odd")
+
+
+def input_numbers():
+    print("Ende mit '-1'")
+    x = 0 
+    while x != -1: 
+        x = int(input("Input a digit or '-1' for ENDE "))
+        if x != -1:
+            deside_even_or_odd_number(x)
+        
 
 # this is a main procedere for defined exersice  
 def main():
@@ -52,10 +71,9 @@ def main():
 #    accept_inputed_filename()
 #    display_elements_from_list()
 #    calc_diff_date()
-    calc_three_numbers(1,1,3)
-    calc_three_numbers(2,2,2)
-
-
+#    calc_three_numbers(1,1,3)
+#    calc_three_numbers(2,2,2)
+    input_numbers()
 
 
 if __name__=="__main__":
