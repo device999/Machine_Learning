@@ -1,5 +1,6 @@
 import datetime
 import sys 
+import math 
 
 #1 Write a Python program to display the current date and time.
 def date_time():
@@ -96,6 +97,10 @@ def search_for_key():
             print(k)
     print("}")
         
+#10. to compute the distance between the points (x1, y1) and (x2, y2).
+def compare_distance_between_points(x1, y1, x2, y2):
+    d = math.sqrt((x2-x1)+(y2-y1))
+    print("Distance between two Points is: ", d)
 
 
 # this is a main procedere for defined exersice  
@@ -109,10 +114,11 @@ def main():
 #    calc_three_numbers(2,2,2)
 #    input_numbers()
 #    is_value_contained_in_group()
-    search_for_key()
+#    search_for_key()
+    compare_distance_between_points(2,2,3,3)
+
 
 
 if __name__=="__main__":
     main()
-
 
