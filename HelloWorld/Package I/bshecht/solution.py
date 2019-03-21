@@ -74,6 +74,29 @@ def is_value_contained_in_group():
         else:
             print("this element was not foundet in the list")
 
+#9. to print out a set containing all the colors from color_list_1 which are not present in color_list_2. 
+# Test Data : 
+# color_list_1 = set(["White", "Black", "Red"]) 
+# color_list_2 = set(["Red", "Green"])
+# Expected Output : 
+# {'Black', 'White'}
+def search_for_key(): 
+    color_list_1 = set(["White", "Black", "Red"])
+    color_list_2 = set(["Red", "Green"])
+    color_list_3 = set([])
+
+    for i in color_list_1:
+        color_list_3.add(i)        
+        for j in color_list_2: 
+            print(i,j)
+            if i == j: 
+                color_list_3.remove(i)
+    print("{")            
+    for k in color_list_3:
+            print(k)
+    print("}")
+        
+
 
 # this is a main procedere for defined exersice  
 def main():
@@ -85,7 +108,8 @@ def main():
 #    calc_three_numbers(1,1,3)
 #    calc_three_numbers(2,2,2)
 #    input_numbers()
-    is_value_contained_in_group()
+#    is_value_contained_in_group()
+    search_for_key()
 
 
 if __name__=="__main__":
