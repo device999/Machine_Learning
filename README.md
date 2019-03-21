@@ -5,6 +5,7 @@ This Repository will be splitted up into 3 categories and the list of planned al
   + Basics
     1. [ ] Package I
     2. [ ] Package II
+    3. [ ] Package *
   + Python Data Types
     1. [ ] String
     2. [ ] List
