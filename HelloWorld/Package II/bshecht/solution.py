@@ -35,6 +35,14 @@ def input_numbers():
 
 
 # 3. Write a Python program to find the number of divisors of a given integer is even or odd.
+def divisor(n):
+    for i in range(n):
+        x = len( [i for i in range(1,n+1) if not n % i])
+    return x
+
+def divisor_even_or_odd(n):
+    print(divisor(n))
+
 
 # 4. Write a Python program to compute the summation of the absolute difference of all distinct pairs in an given array (non-decreasing order)
 
@@ -72,7 +80,10 @@ def input_numbers():
 def main():
 #    OS_INFO()
     input_numbers()
-
+    divisor_even_or_odd(15)
+    divisor_even_or_odd(4)
+    divisor_even_or_odd(32)
+    
 
 
 
