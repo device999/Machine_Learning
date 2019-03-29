@@ -16,7 +16,6 @@ def OS_INFO():
 def summe(number):
     x = 0
     print(number)
-
     
     return(x)
 
@@ -45,11 +44,40 @@ def divisor_even_or_odd(n):
 
 
 # 4. Write a Python program to compute the summation of the absolute difference of all distinct pairs in an given array (non-decreasing order)
+# past and copy :) 
+def sum_distinct_pairs(arr):
+    result = 0
+    i = 0
+    while i < len(arr):
+        result+= i * arr[i] - (len(arr) - i - 1) * arr[i]
+        i+=1
+    return result
 
 # 5. Write a Python program to find common divisors between two numbers in a given pair.
+def ngcd(x, y):
+    i=1
+    while(i<=x and i<=y):
+        if(x%i==0 and y%i == 0):
+            gcd=i
+        i+=1
+    return gcd
+
+def num_comm_div(x, y):
+  n = ngcd(x, y)
+  result = 0
+  z = int(n**0.5)
+  i = 1
+  while( i <= z ):
+    if(n % i == 0):
+      result += 2 
+      if(i == n/i):
+        result-=1
+    i+=1
+  return result
+
+
 
 # 6. Write a Python program which solve the equation. (*)
-
 # ax+by=c
 # dx+ey=f
 # Print the values of x, y where a, b, c, d, e and f are given.
@@ -61,29 +89,43 @@ def divisor_even_or_odd(n):
 # Values of x and y:
 #-2.000 2.000
 
-# 7. Write a Python program to print the number of prime numbers which are less than or equal to an given integer.
 
+# 7. Write a Python program to print the number of prime numbers which are less than or equal to an given integer.
 # n (1 = n = 999,999)
 # Input the number(n):
 # 35
 # Number of prime numbers which are less than or equal to n.: 11
 
-# 8. Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. 
+
+
+
+# 8. Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. 
+# The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. 
+
+
 
 # 9. Write a Python program to compute the sum of first n given prime numbers.
 
 # 10. Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies.
 
 
-
 # this is a main procedere for defined exersice  
 def main():
 #    OS_INFO()
-    input_numbers()
-    divisor_even_or_odd(15)
-    divisor_even_or_odd(4)
-    divisor_even_or_odd(32)
-    
+#    input_numbers()    
+#    divisor_even_or_odd(15)
+#    divisor_even_or_odd(4)
+#    divisor_even_or_odd(32)
+#    divisor_even_or_odd(10)
+    # error if n = 0
+#    print("\4 Summe distinct pairs: ")
+#    print("[1,2,3]", sum_distinct_pairs([1,2,3]))
+#    print("[98,99,100]", sum_distinct_pairs([2,2,1]))
+
+    print("Number of common divisors: ",num_comm_div(2, 4))
+    print("Number of common divisors: ",num_comm_div(2, 8))
+    print("Number of common divisors: ",num_comm_div(12, 24))
+
 
 
 
