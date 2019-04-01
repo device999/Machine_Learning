@@ -142,7 +142,7 @@ def solve_equation_input():
 
 # 7. Write a Python program to print the number of prime numbers which are less than or equal to an given integer.
 # n (1 = n = 999,999)
-# Input the number(n):
+# Input the number(n): test
 # 35
 # Number of prime numbers which are less than or equal to n.: 11
 
