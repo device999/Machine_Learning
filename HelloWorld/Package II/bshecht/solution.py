@@ -3,7 +3,6 @@ import os
 import platform  
 
 
-
 # 1. Write a Python program to display some information about the Operating System where the script is running
 def OS_INFO():
     print("OS INFO: ")
@@ -88,7 +87,58 @@ def num_comm_div(x, y):
 # 5 8 6 7 9 4
 # Values of x and y:
 #-2.000 2.000
+def is_diff_index_equal_zero(a,b,c,d):
+  if((a - b) == 0):
+    return True;
+  if((c - d) == 0):
+    return True;
+  else: 
+    return False; 
 
+
+# ax + by = c
+# dx + ey = f
+
+def solution_(v,a,b,c,d,e,f):
+  print("solution:")
+  
+  if(v == "x"):
+    print("solution with x")
+    # 0 = (c + f) - (b + e)
+    # y = (c + f) / (b + e) 
+    y = (c + f) / (b + e)
+    x = (c - b) / a 
+    print(" x = ", x, " y = ", y)
+
+  if(v == "y"):
+    # x = 
+    x = (c + f) - (b + e) 
+    y = (f - e) / d
+    print(" x = ", x, " y = ", y)
+
+  if(v == "NotFound"): 
+    print("can not resolve")
+
+
+def solve_equation(a,b,c,d,e,f):
+  zeroValue = "NotFound"
+
+  if(is_diff_index_equal_zero(a,d)):
+    zeroValue = "x"
+    solution_(zeroValue,a,b,c,d,e,f) 
+  if(is_diff_index_equal_zero(b,e)):
+    zeroValue = "y"
+    solution_(zeroValue,a,b,c,d,e,f) 
+
+def solve_equation_input():
+
+  a = int(input("a"))
+  b = int(input("b"))
+  c = int(input("c"))
+  d = int(input("d"))
+  e = int(input("e"))
+  f = int(input("f"))
+  solve_equation(a,b,c,d,e,f)
 
 # 7. Write a Python program to print the number of prime numbers which are less than or equal to an given integer.
 # n (1 = n = 999,999)
@@ -106,7 +156,10 @@ def num_comm_div(x, y):
 
 # 9. Write a Python program to compute the sum of first n given prime numbers.
 
+
+
 # 10. Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies.
+
 
 
 # this is a main procedere for defined exersice  
@@ -122,11 +175,11 @@ def main():
 #    print("[1,2,3]", sum_distinct_pairs([1,2,3]))
 #    print("[98,99,100]", sum_distinct_pairs([2,2,1]))
 
-    print("Number of common divisors: ",num_comm_div(2, 4))
-    print("Number of common divisors: ",num_comm_div(2, 8))
-    print("Number of common divisors: ",num_comm_div(12, 24))
+#    print("Number of common divisors: ",num_comm_div(2, 4))
+#    print("Number of common divisors: ",num_comm_div(2, 8))
+#    print("Number of common divisors: ",num_comm_div(12, 24))
 
-
+    solve_equation_input()
 
 
 if __name__=="__main__":
