@@ -18,7 +18,7 @@ This Repository will be splitted up into 3 categories and the list of planned al
   + Python Level 2
   
     9. [ ] Math + File Input and Output 
-    10. [ ] Python - Object Oriented
+    10. [ ] Object Oriented
   + Python Numpy
   
     10. [ ] Basic+ Arrays + Linear Algebra + Random + Math
