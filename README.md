@@ -25,6 +25,7 @@ This Repository will be splitted up into 3 categories and the list of planned al
     10. [ ] Introduction (Branch Nr: pandas_1)
     
   + Python MatplotLib
+  
     11. [ ] Introduction (Branch Nr: matplotlib_1)
     
 + Supervised learning
