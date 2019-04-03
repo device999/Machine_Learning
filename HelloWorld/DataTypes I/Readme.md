@@ -21,10 +21,8 @@ Hint: Use Main
 2. Write a Python program to get the largest number from a list.
 3. Write a Python program to get the smallest number from a list.
 4. Write a Python program to remove duplicates from a list.
-5. Write a Python program to remove duplicates from a list.
-6. Write a Python program to get the difference between the two lists.
-7. Write a Python program to find all the values in a list are greater than a specified number.
-8. Write a Python program to find all the values in a list are greater than a specified number.
+5. Write a Python program to get the difference between the two lists.
+6. Write a Python program to find all the values in a list are greater than a specified number.
 
 ## Array
 
