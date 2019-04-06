@@ -33,5 +33,3 @@ This Repository will be splitted up into 3 categories and the list of planned al
   1. [ ] Coming Soon
 + Unsupervised learning
   1. [ ] Coming Soon
-+ Reinforcement learning
-  1. [ ] Coming Soon
