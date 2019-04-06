@@ -17,16 +17,17 @@ This Repository will be splitted up into 3 categories and the list of planned al
   + Python Level 2
   
     8. [ ] Math + File Input and Output    (Branch Nr: files_math_1)
+    9. [ ] OOP (Branch Nr: python_oop_1)
   + Python Numpy
   
-    9. [ ] Basic+ Arrays + Linear Algebra + Random + Math (Branch numpy_1)
+    10. [ ] Basic+ Arrays + Linear Algebra + Random + Math (Branch numpy_1)
   + Python Pandas
   
-    10. [ ] Introduction (Branch Nr: pandas_1)
+    11. [ ] Introduction (Branch Nr: pandas_1)
     
   + Python MatplotLib
   
-    11. [ ] Introduction (Branch Nr: matplotlib_1)
+    12. [ ] Introduction (Branch Nr: matplotlib_1)
     
 + Supervised learning
   1. [ ] Coming Soon
