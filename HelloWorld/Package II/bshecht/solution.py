@@ -145,9 +145,23 @@ def solve_equation_input():
 # Input the number(n): test
 # 35
 # Number of prime numbers which are less than or equal to n.: 11
+def primes(n):
+  test = 0
+  
+  for i in range (2, n):
+    if n <= 1: 
+      print(n, "isn't a prime number.")
 
-
-
+    for i in range (2, n):
+      if n * 1.0 % i == 0:
+        print (n * 1.0 / i)
+        test = 1
+      else:
+        print(n * 1.0 / i) 
+    if test == 1:  
+      print("Digit ", n, " is not a prime digit") 
+    else:
+      print("Digit ", n, " is a prime")
 
 # 8. Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. 
 # The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. 
@@ -179,8 +193,10 @@ def main():
 #    print("Number of common divisors: ",num_comm_div(2, 8))
 #    print("Number of common divisors: ",num_comm_div(12, 24))
 
-    solve_equation_input()
-
+#    solve_equation_input()
+#    7 
+     n = int(input("Number : "))
+     print(primes(n))  
 
 if __name__=="__main__":
     main()
