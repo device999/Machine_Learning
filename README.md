@@ -1,4 +1,4 @@
-# Machine_Learning
+# Machine Learning
 Development of Machine Learning Algorithms
 This Repository will be splitted up into 3 categories and the list of planned algorithms.
 + HelloWorld Package
