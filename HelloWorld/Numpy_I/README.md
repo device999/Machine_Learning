@@ -8,7 +8,6 @@ Install numpy by the following command:
 
 Hint: Use Main
 
-Student is obligated to do 10 exercise and 5 is optional.
 ----------------------------------------------------------------
 ### Basic:
 
