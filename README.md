@@ -8,15 +8,15 @@ This Repository will be splitted up into 3 categories and the list of planned al
     3. [X] Package *
   + Python Data Types
   
-    4. [ ] String + Array + List (Branch Nr: data_types_1)
-    5. [ ] Dictionary + Tuple + Set (Branch Nr: data_types_2)
+    4. [X] Array + List (Branch Nr: data_types_1)
+    5. [X] Dictionary + Tuple + Set (Branch Nr: data_types_2)
   + Python Algorithms
   
-    6. [ ] Data Structure + Searching + Sorting (Branch Nr: algorithms_1)
+    6. [ ] Searching + Sorting (Branch Nr: algorithms_1)
     7. [ ] Binary Search Tree + Recursion (Branch Nr: algorithms_2)
   + Python Level 2
   
-    8. [ ] Math + File Input and Output    (Branch Nr: files_math_1)
+    8. [X] Math + File Input and Output    (Branch Nr: files_math_1)
     9. [ ] OOP (Branch Nr: python_oop_1)
   + Python Numpy
   
