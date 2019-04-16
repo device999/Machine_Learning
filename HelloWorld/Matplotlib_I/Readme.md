@@ -8,11 +8,21 @@ Install numpy by the following command:
 
 Hint: Use Main
 
-----------------------------------------------------------------
-### Plots:
+## Basics:
 
-1. Line plot
-2. Histogram
-3. Three-dimensional plot
-4. Bar chart
-5. Pie chart
+---
+
+Task page is [here](https://www.w3resource.com/graphics/matplotlib/basic/index.php).
+
+Exercises:
+
+3, 6, 7, 8, 10 ,11
+
+## Scatter:
+
+---
+Task page is [here](https://www.w3resource.com/graphics/matplotlib/scatter/index.php).
+
+Exercises:
+
+1, 3, 4
