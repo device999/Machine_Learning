@@ -25,15 +25,13 @@ Hint: Use Main
 ### Linear Algebra:
 
 1. Write a NumPy program to compute the multiplication of two given matrixes.
-2. Write a NumPy program to compute the multiplication of two given matrixes.
-3. Write a NumPy program to compute the determinant of an array. 
-4. Write a NumPy program compute the inverse of a given matrix.
-5. Write a NumPy program compute the sum of the diagonal element of a given array.
+2. Write a NumPy program to compute the determinant of an array. 
+3. Write a NumPy program compute the inverse of a given matrix.
+4. Write a NumPy program compute the sum of the diagonal element of a given array.
 
 ### Random:
 
 1. Write a NumPy program to get the n largest values of an array.
 2. Write a NumPy program to find the most frequent value in an array. 
-3. Write a NumPy program to find the most frequent value in an array. 
 
 
