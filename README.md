@@ -30,7 +30,8 @@ This Repository will be splitted up into 3 categories and the list of planned al
   
     13. [ ] Introduction (Branch Nr: matplotlib_1)
     
-+ Supervised learning
-  1. [ ] Coming Soon
-+ Unsupervised learning
-  1. [ ] Coming Soon
++ Projects
+
+  1. [ ] Iris Flower 
+  2. [ ] Recommender Systems with Movielens Dataset
+  3. [ ] MNIST Handwritten Digit Classification
