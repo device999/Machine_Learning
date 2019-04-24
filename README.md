@@ -22,13 +22,10 @@ This Repository will be splitted up into 3 categories and the list of planned al
   + Python Numpy
   
     11. [ ] Basic+ Arrays + Linear Algebra + Random + Math (Branch numpy_1)
-  + Python Pandas
-  
-    12. [ ] Introduction (Branch Nr: pandas_1)
     
   + Python MatplotLib
   
-    13. [ ] Introduction (Branch Nr: matplotlib_1)
+    12. [ ] Introduction (Branch Nr: matplotlib_1)
     
 + Projects
 
