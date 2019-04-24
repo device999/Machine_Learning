@@ -3,4 +3,4 @@ Iris flowers dataset is one of the best dataset in classification literature. Th
 
 Iris Dataset can be downloaded from UCI ML Repository – [Download Iris Flowers Dataset](http://archive.ics.uci.edu/ml/datasets/Iris)
 
- The goal of this machine learning project is to classify the flowers into among the three species – virginica, setosa, or versicolor based on length and width of petals and sepals.
+The goal of this machine learning project is to classify the flowers into among the three species – virginica, setosa, or versicolor based on length and width of petals and sepals.
