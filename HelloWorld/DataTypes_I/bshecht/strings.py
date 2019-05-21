@@ -1,5 +1,26 @@
 #1. Write a Python program to find smallest and largest word in a given string
+def get_smallest_string(s):
+    a = s.split()
+    smallest = a[0]
+
+    for element in a:
+        if len(smallest) > len(element):
+            smallest = element    
+    return smallest
+
+def get_largest_string(s):
+    a = s.split()
+    largest = a[0]
+    for element in a:
+        if len(largest) < len(element):
+            largest = element    
+    return largest 
+
+
 def str_smallest_largest_word(one_string):
+    print("smallest string: ", get_smallest_string(one_string))
+    print("largest string: ", get_largest_string(one_string)) 
+
 
 #2. Write a Python program to count Uppercase, Lowercase, special character and numeric values in a given string.
 
@@ -19,7 +40,7 @@ def str_smallest_largest_word(one_string):
 def main():
     print("Strings")
     str_smallest_largest_word("Hello, it's a function who can find smallest and largest word in an given string.")
-    
+
 
 if __name__=="__main__":
     main()
