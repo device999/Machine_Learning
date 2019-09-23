@@ -2,7 +2,7 @@
 Development of Machine Learning Algorithms
 This Repository will be splitted up into 3 categories and the list of planned algorithms.
 + HelloWorld Package
-  + Basics
+  + Basic
     1. [X] Package I
     2. [X] Package II
     3. [X] Package *
