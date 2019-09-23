@@ -2,7 +2,7 @@
 Development of Machine Learning Algorithms
 This Repository will be splitted up into 3 categories and the list of planned algorithms.
 + HelloWorld Package
-  + Basic
+  + Basics
     1. [X] Package I
     2. [X] Package II
     3. [X] Package *
@@ -12,20 +12,20 @@ This Repository will be splitted up into 3 categories and the list of planned al
     5. [X] Dictionary + Tuple + Set 
   + Python Algorithms
   
-    6. [ ] Searching + Sorting (Branch Nr: algorithms_1)
-    7. [ ] Binary Search Tree + Recursion (Branch Nr: algorithms_2)
+    1. [X] Searching + Sorting
+    2. [X] Binary Search Tree + Recursion
   + Python Level 2
   
     8. [X] File Input and Output
-    9. [ ] OOP (Branch Nr: python_oop_1)
-    10. [ ] Exceptions
+    9. [X] OOP (Branch Nr: python_oop_1)
+    10. [X] Exceptions
   + Python Numpy
   
-    11. [ ] Basic+ Arrays + Linear Algebra + Random + Math (Branch numpy_1)
+    1.  [X] Basic+ Arrays + Linear Algebra + Random + Math
     
   + Python MatplotLib
   
-    12. [ ] Introduction (Branch Nr: matplotlib_1)
+    1.  [X] Introduction
     
 + Projects
 
